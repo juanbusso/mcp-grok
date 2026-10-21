@@ -1,0 +1,16 @@
+{
+  "name": "grok-mcp",
+  "version": "1.0.0",
+  "description": "Servidor MCP de Grok (xAI) con soporte dual (API xAI + Sesión Web SuperGrok) y Portal de Acceso Remoto",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "portal": "node auth-portal.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "playwright-core": "^1.58.2",
+    "ws": "^8.20.0"
+  }
+}
