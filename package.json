@@ -1,0 +1,19 @@
+{
+  "name": "grok-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Grok (xAI): Grok Build CLI, xAI API key, or SuperGrok web session, plus an optional local auth portal",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "portal": "node auth-portal.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "playwright-core": "^1.58.2",
+    "ws": "^8.20.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
